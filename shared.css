@@ -1,0 +1,334 @@
+/* Project page */
+.img-header {
+    position: relative;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(images/project2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 35vh;
+    z-index: -1;
+}
+.word {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.word h3 {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.word p {
+    color: #fff;
+    font-family: "Nunito", sans-serif;
+    text-align: center;
+}
+textarea {
+  resize: none;
+}
+.overall-project-container {
+  background-color: #d0dcec;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.project-container {
+  max-width: 700px;
+  width: 100%;
+  background-color: #fff;
+  padding: 2.3rem 1.8rem;
+  border-radius: 5px;
+}
+.project-title {
+  color: #000060;
+  font-weight: bold;
+  padding-bottom: 0.9rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  text-align: center;
+}
+.project-container form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.user-details .input-box .details {
+  font-weight: 600;
+  color: #000060;
+  margin-bottom: 5px;
+  display: block;
+}
+form .user-details .input-box {
+  width: calc(100% / 2 - 20px);
+  margin: 1rem 0 1rem;
+}
+.user-details .input-box input {
+  height: 45px;
+}
+.user-details .input-box textarea {
+  padding: 10px;
+}
+.user-details .input-box input,
+.user-details .input-box textarea {
+  width: 100%;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input:focus,
+.user-details .input-box textarea:focus {
+  border-color: #000060;
+}
+.user-details .btn-file {
+  position: relative;
+  padding: 1rem 1.5rem;
+  overflow: hidden;
+  bottom: 45%;
+  width: 100%;
+  color: #000060;
+  background-color: #d0dcec;
+  border-radius: 5px;
+  border: 1px solid #d0dcec;
+  border-bottom-width: 2px;
+  font-size: 14px;
+  font-family: "Nunito", sans-serif;
+  transition: all 0.3s ease;
+}
+.btn-file input[type="file"] {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(3);
+  opacity: 0;
+}
+.funds-label p {
+  font-weight: 600;
+  color: #000060;
+}
+form .project-btn {
+  height: 45px;
+  margin: 35px 0;
+}
+form .project-btn input {
+  height: 100%;
+  width: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  background-color: #000060;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in;
+}
+form .project-btn input:hover {
+  background-color: #040452;
+}
+@media (max-width:767px){
+    form .user-details .input-box {
+        width: 100%;
+      }
+      .user-details .btn-file {
+        bottom: 15%;
+}
+.word {
+  top: 54%;
+  left: 25%;
+}
+}
+@media (max-width:481px){
+  .word {
+    top:53%;
+    left: 18%;
+  }
+  .word h3 {
+    font-size: 1.5rem;
+}
+}
+@media (min-width:481px){
+  .word {
+    top:53%;
+    left: 40%;
+  }
+}
+/*Contact page */
+.overall-contact-container {
+  background-color: #d0dcec;
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5.4rem 15px;
+  border-radius: 5px;
+}
+.contact-title h2 {
+  color: #000060;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.information {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+.information img {
+  width: 25px;
+  height: 25px;
+}
+.contact-form form {
+  border: 1px solid #000060;
+  padding:30px;
+}
+.contact-form h2 {
+  text-align: center;
+  color: #000060;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 7px;
+}
+.contact-form form .input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.contact-form form .input-box input,
+.contact-form form .input-box textarea {
+  width: 100%;
+  height: 100%;
+  padding-left: 10px;
+  outline: none;
+  border: 1px solid #000060;
+  border-bottom-width: 2px;
+  font-family: "Nunito", sans-serif;
+}
+.contact-form form .input-box input {
+  height: 40px;
+}
+.contact-form form .input-box textarea {
+  padding-top: 10px;
+}
+form .contact-btn {
+  height: 45px;
+}
+form .contact-btn input[type="submit"] {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  color: #fff;
+  background-color: #000060;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in;
+}
+form .contact-btn input:hover {
+  background-color: #040452;
+}
+@media (min-width: 991px) {
+  .contact-container {
+    flex-direction: row;
+    margin-top: 5rem;
+    width: 90%;
+    padding: 2rem 4rem;
+    gap: 2.5rem;
+  }
+}
+/* End of Contact Page */
+
+/* Training Page */
+.training-container {
+  font-family: "Nunito", sans-serif;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  background-color: #d0dcec;
+}
+.training-title h2 {
+  color: #000060;
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  
+}
+.training-section-writeup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.training-section-writeup h3 {
+  color: #000060;
+}
+.training-section-writeup p {
+  color: rgb(61, 58, 58);
+  line-height: 1.7;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  border: 0;
+  outline: none;
+  font-weight: bold;
+  background-color: #e211ae;
+  color: white;
+  padding: 0.6rem 1.7rem;
+  border-radius: 30px;
+  width: 164px;
+  margin-top: 15px;
+}
+.button a{
+  color: #fff;
+}
+hr {
+  display: none;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem 1.5rem 1.7rem 1.8rem;
+  margin-bottom: 1rem;
+  background-color: aliceblue;
+}
+.section-image {
+  display: none;
+}
+
+@media (min-width: 767px) {
+  .section-image {
+    display: block;
+    max-width: 600px;
+  }
+  .section{
+   flex-direction: row;
+   gap: 1.5rem;
+   background-color: inherit;
+   width: 80%;
+   margin: 1.5rem auto;
+  }
+  .training-title h2{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
